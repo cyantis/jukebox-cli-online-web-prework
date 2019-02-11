@@ -40,7 +40,6 @@ def exit_jukebox
 end
 
 def run(songs)
-  #help
   puts "Please enter a command:"
   command = gets.downcase.chomp
   case command
